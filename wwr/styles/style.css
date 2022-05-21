@@ -1,10 +1,20 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Rock+Salt&display=swap');
+
+  /* change the values below to your chosen font(s) */
+
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
-  }
-
+}
 nav a {
     text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,9 +30,12 @@ main section {
     height: 725px;
     background-color:#DD6E46;
 }
-
 body {
     background-color: #fcfbfb;
+    font-family: "Acme", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #0C6464;
@@ -35,6 +48,10 @@ nav a:hover {
     background-color: #DD6E46;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #349CCC;
@@ -42,17 +59,19 @@ nav a:hover {
 }
 .msg {
     background-color: #0C6464;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #0C6464;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
-    color: black;
+    font-family: "Rock Salt","Bradley Hand", sans-serif;
+    color: #DD6E46;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
@@ -62,6 +81,8 @@ h4 {
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: white;
@@ -75,6 +96,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
@@ -84,4 +106,22 @@ footer a:hover {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+footer .social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #DD6E46;
+}
+main section img {
+    box-sizing: border-box;
 }
