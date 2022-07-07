@@ -350,3 +350,9 @@ button {
         margin-top: 25px;
     }
 }
+
+#prueba {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }

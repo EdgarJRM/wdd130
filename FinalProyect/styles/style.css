@@ -322,6 +322,13 @@ form {
       margin-top: 3em;
   }
 
+  #pin { /*Pin an image or item to the screen*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid, .river-grid {
